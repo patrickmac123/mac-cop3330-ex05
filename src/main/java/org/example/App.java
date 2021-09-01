@@ -14,12 +14,15 @@ public class App
         String x = scan.nextLine();
         System.out.print( "What is the second number? " );
         String y = scan.nextLine();
+
         int x1=Integer.parseInt(x);
         int y1=Integer.parseInt(y);
+
         int add = x1 + y1;
         int sub = x1 - y1;
         int mult = x1 * y1;
         int div = x1 / y1;
+
         System.out.println(x1+" + "+y1+" = "+add+ "\r\n" +x1+" - "+y1+" = "+sub+ "\r\n" +x1+" * "+y1+" = "+mult+ "\r\n" +x1+" / "+y1+" = "+div);
     }
 }
